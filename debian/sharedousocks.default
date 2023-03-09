@@ -1,0 +1,12 @@
+# Defaults for sharedousocks initscript
+# sourced by /etc/init.d/sharedousocks
+# installed at /etc/default/sharedousocks by the maintainer scripts
+
+USERID="nobody"
+
+#
+# This is a POSIX shell fragment
+#
+
+# Additional options that are passed to the Daemon.
+DAEMON_OPTS="-q -c /etc/sharedousocks/config.json"

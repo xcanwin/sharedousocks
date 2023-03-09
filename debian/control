@@ -1,0 +1,23 @@
+Source: sharedousocks
+Section: python
+Priority: extra
+Maintainer: none <none@gmail.com>
+Build-Depends: debhelper (>= 8),
+               python-all,
+               python-setuptools,
+Standards-Version: 3.9.8
+Homepage: https://github.com/sharedousocks/sharedousocks
+Vcs-Git: https://github.com/none/sharedousocks.git
+Vcs-Browser: https://github.com/none/sharedousocks
+
+Package: sharedousocks
+Architecture: all
+Depends: lsb-base (>= 3.0-6),
+         python-m2crypto,
+         python-pkg-resources,
+         ${misc:Depends},
+         ${python:Depends},
+Description: Fast tunnel proxy that helps you access neighboring C-network in a local area network
+ A secure socks5 proxy, designed to protect your Internet traffic.
+ .
+ This package contain local and server part of sharedousocks, Fast tunnel proxy that helps you access neighboring C-network in a local area network.
